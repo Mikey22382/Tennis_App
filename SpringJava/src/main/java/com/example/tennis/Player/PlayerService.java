@@ -10,7 +10,7 @@ public class PlayerService {
     @GetMapping
 	public List<Player> getPlayers() {
 		return List.of(
-            new Player(1, "Aidan", 3.0)
+            new Player("Aidan", 3.0)
         );
 	}
 }
